@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SanityTest" >
+  <test name="ShopRite.us" >
+    <classes>
+       <class name="shoprite.us.myrunner.MyRunner"/>
+    </classes>
+  </test>
+</suite>
