@@ -1,5 +1,8 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="SanityTest" >
+ <listeners>
+<listener class-name="shoprite.us.listener.ListnerTest"/>
+</listeners>
   <test name="ShopRite.us" >
     <classes>
        <class name="shoprite.us.myrunner.MyRunner"/>

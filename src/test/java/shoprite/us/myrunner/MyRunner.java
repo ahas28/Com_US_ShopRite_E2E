@@ -9,9 +9,10 @@ package shoprite.us.myrunner;
 			
 			//help of the plugin we are creating the report like Jason, HTML
 			//format = {"pretty","json:target/cucumber.json"},
-			plugin = {"pretty","json:target/cucumber.json"},
+			
+			plugin = {"pretty","json:target/cucumber.json" },
 			features = {"./Features",},
-			glue = {"shoprite.us.stepdefinitions",},
+			glue = {"shoprite.us.stepdefinitions", },
 			dryRun = false,
 			 
 			tags = "@Sanity",
