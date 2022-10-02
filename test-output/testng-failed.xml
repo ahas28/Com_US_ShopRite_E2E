@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [SanityTest]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="shoprite.us.listener.ListnerTest"/>
-  </listeners>
-  <test thread-count="5" name="ShopRite.us(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="shoprite.us.myrunner.MyRunner">
+      <class name="My_Automation_Challenge.SoftNDHardAssert">
         <methods>
-          <include name="runScenario" invocation-numbers="0"/>
-          <include name="tearDownClass"/>
-          <include name="setUpClass"/>
+          <include name="getMyPassNDFail"/>
         </methods>
-      </class> <!-- shoprite.us.myrunner.MyRunner -->
+      </class> <!-- My_Automation_Challenge.SoftNDHardAssert -->
     </classes>
-  </test> <!-- ShopRite.us(failed) -->
-</suite> <!-- Failed suite [SanityTest] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

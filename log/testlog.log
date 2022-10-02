@@ -50,3 +50,11 @@
 2022-09-02 01:22:06,120 - QA Boss = H@SH -INFO - User able to enter password
 2022-09-02 01:22:06,120 - QA Boss = H@SH -INFO - User able to  click login in button Two
 2022-09-02 01:22:07,283 - QA Boss = H@SH -INFO - User able to verify the user information {string} on the UI and Logout
+2022-09-24 19:23:15,023 - QA Boss = H@SH -INFO - User able to open any browsers
+2022-09-24 19:23:15,030 - QA Boss = H@SH -INFO - User able to open edge browser
+2022-09-24 19:23:17,120 - QA Boss = H@SH -INFO - User able enter {string} URL
+2022-09-24 19:23:20,517 - QA Boss = H@SH -INFO - user able to click sign in button One
+2022-09-24 19:23:24,579 - QA Boss = H@SH -INFO - User able to enter username
+2022-09-24 19:23:24,580 - QA Boss = H@SH -INFO - User able to enter password
+2022-09-24 19:23:24,581 - QA Boss = H@SH -INFO - User able to  click login in button Two
+2022-09-24 19:23:24,728 - QA Boss = H@SH -INFO - User able to verify the user information {string} on the UI and Logout
